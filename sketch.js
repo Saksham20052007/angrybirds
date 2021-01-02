@@ -74,3 +74,9 @@ function mouseDragged(){
 function mouseReleased(){
     chain.fly();
 }
+
+function keyPressed(){
+    if(keyCode===32){
+        chain.attach(bird.body);
+    }
+}
